@@ -3,11 +3,11 @@ package com.company.FRSproject;
 public class Main {
 
     public static void main(String[] args) {
-        Ticket regularTicket = new RegularTicket("12345", "Bengaluru",
+        Ticket regularTicket = new RegularTicket("87567", "Bengaluru",
                 "Delhi", "DepartureDateTime", "ArrivalDateTime",
                 "6F", 5000, false, null, null, "lunch");
 
-        Ticket touristTicket = new TouristTicket("67890", "India", "Dubai",
+        Ticket touristTicket = new TouristTicket("67897", "India", "Dubai",
                 "DepartureDateTime", "ArrivalDateTIme",
                 "10A", 15000, false, null, null,
                 "Dubai Hotel", new String[]{""});
